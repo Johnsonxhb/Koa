@@ -1,0 +1,20 @@
+{
+  "name": "koaTest",
+  "version": "1.0.0",
+  "description": "Koa 实战练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mime": "^2.4.4",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0"
+  }
+}

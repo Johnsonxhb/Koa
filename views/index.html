@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+    
+{% block body %}
+<div class="test">
+    <h1>Index</h1>
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label >Name</label>
+            <input class="form-control" name="name" value="koa">
+        </div>
+        <div class="form-group">
+            <label >Password</label>
+            <input class="form-control" name="password" type="password">
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+{% endblock %}
